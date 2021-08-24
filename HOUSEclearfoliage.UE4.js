@@ -1155,7 +1155,7 @@ $(document).ready(function() {
 		// ----------------------------------------
 		// MORE JS
 		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/GreenProd/RubkoffVizTestV2/6dba2bc4939b719fedbaa84df6ea8eae6cc63522/HOUSEclearfoliage.data.js'));
-		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('Utility.js')).then(addScriptToDom);
+		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/GreenProd/RubkoffVizTestV2/6a165e9d59405b73a6c1538c6e3c85a3a1a2e3eb/Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
 			fetchOrDownloadAndStore(db, Module.locateFile('HOUSEclearfoliage.data')).then(function(dataBlob) {
